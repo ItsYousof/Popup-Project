@@ -82,7 +82,7 @@
         const backgroundColor = '#2196f3';
         const textColor = '#ffffff';
         const borderColor = '#1976d2';
-        createNotification(backgroundColor, textColor, 'i ' + text, borderColor, position);
+        createNotification(backgroundColor, textColor, 'ℹ️ ' + text, borderColor, position);
     }
 
     function createPopup(bgColor, textColor, headline, bodyText) {
@@ -152,11 +152,9 @@
         }
     }
 
-    return {
-        createErrorNotification,
-        createSuccessNotification,
-        createWarningNotification,
-        createInfoNotification,
-        createPopup
-    };
+    window.createErrorNotification = createErrorNotification;
+    window.createSuccessNotification = createSuccessNotification;
+    window.createWarningNotification = createWarningNotification;
+    window.createInfoNotification = createInfoNotification;
+    window.createPopup = createPopup;
 })();
