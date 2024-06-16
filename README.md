@@ -29,5 +29,5 @@ If you would like to, you can make a notification with custom background, border
 ```
 createNotification(backgroundColor, textColor, text, borderColor, position)
 ```
-
+**NOTE:** If your HTML file doesn't contain any elements then the program won't work
 Thank you for using this project!
