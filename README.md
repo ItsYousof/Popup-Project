@@ -4,17 +4,7 @@ This project allows you to make custom popups and notifications that can be help
 
 ## Importing
 ```
-<script>
-    const jsFileUrl = 'https://raw.githubusercontent.com/ItsYousof/Popup-Project/main/main.js';
-
-    fetch(jsFileUrl)
-        .then(response => response.text())
-        .then(code => {
-         const script = document.createElement('script');
-        script.textContent = code;
-        document.body.appendChild(script);
-    });
-</script>
+<script src="https://codebentodev.w3spaces.com/scripts.js"></script>
 ```
 ## Using
 Here is every function that you might use, 
